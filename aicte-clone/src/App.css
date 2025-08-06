@@ -1,0 +1,167 @@
+/* General page background */
+*{
+  /* background-color: #FFFFFF; */
+}
+.page-bg {
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+
+/* Banner styles */
+.banner-bg {
+  background: #2176c1;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.banner-img {
+  width: 100%;
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Certificate Section Styles */
+.certificate-section-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  min-width: 300px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .certificate-section-bg {
+    padding: 0;
+    width: 100%;
+    justify-content: stretch;
+  }
+}
+.certificate-card {
+  background: #337AB7;
+  color: #fff;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 20px;
+  max-width: 720px;
+  min-width: 300px;
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .certificate-card {
+    max-width: 98vw;
+    padding: 12px 4vw 16px 4vw;
+    font-size: 13px;
+  }
+  .certificate-grade-columns {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .certificate-verified-icon {
+    width: 90px;
+    height: 90px;
+    min-width: 60px;
+  }
+  .certificate-verified-icon img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.certificate-verified-icon {
+  background: #fff;
+  /* border-radius: 8px; */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  width: 20vw;
+  max-width: 204px;
+  min-width: 80px;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certificate-verified-icon img {
+  width: 90%;
+  height: 90%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.certificate-title {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #F5F5F5;
+  text-align: center;
+  margin-bottom: 22px;
+  letter-spacing: 0.2px;
+}
+.certificate-details {
+  width: 100%;
+  font-size: 1.08rem;
+  margin-bottom: 5px;
+}
+.certificate-details > div {
+  margin-bottom: 4px;
+  color: #F5F5F5;
+  font-size: 1.03rem;
+}
+.certificate-label {
+  color: #F5F5F5;
+  /* min-width: 140px; */
+  display: inline-block;
+
+}
+.certificate-grade-box {
+  background: #337AB7;
+  border: 1.5px solid #FFFFFF;
+  padding: 2px 0px 10px 1px;
+  width: 100%;
+}
+.certificate-grade-title {
+  font-weight: 400;
+  color: #F5F5F5;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.certificate-grade-columns {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+}
+.certificate-grade-col {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #F5F5F5;
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .certificate-card {
+    max-width: 98vw;
+    padding: 12px 4vw 16px 4vw;
+    font-size: 13px;
+  }
+  .certificate-grade-columns {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .certificate-verified-icon {
+    width: 25vw;
+    max-width: 120px;
+    min-width: 60px;
+  }
+  .certificate-verified-icon img {
+    width: 90%;
+    height: 90%;
+  }
+}
