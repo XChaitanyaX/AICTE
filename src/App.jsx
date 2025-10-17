@@ -11,7 +11,7 @@ const CertificateSection = () => {
         <div className="certificate-details">
           <div><span className="certificate-label">Certificate ID:</span> 1fe3034d29e012060180754c0dbeg382</div>
           <div><span className="certificate-label">Issued On:</span> 30 Sep 2025</div>
-          <div><span className="certificate-label">Issued To:</span> Bonu Krishna Chaitanya</div>
+          <div><span className="certificate-label">Issued To:</span> BONU KRISHNA CHAITANYA</div>
           <div><span className="certificate-label">Institute:</span> Siddhartha Academy of Higher Education</div>
           <div><span className="certificate-label">Internship:</span> GOOGLE AI-ML VIRTUAL INTERNSHIP (JUL - SEP 2025)</div>
           <div><span className="certificate-label">Grade:</span> C</div>
