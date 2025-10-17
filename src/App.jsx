@@ -9,12 +9,12 @@ const CertificateSection = () => {
         </div>
         <div className="certificate-title">AICTE Internship Certificate is successfully verified</div>
         <div className="certificate-details">
-          <div><span className="certificate-label">Certificate ID:</span> f907ce00ed4636gg2cf9e4b5a71a89c7</div>
-          <div><span className="certificate-label">Issued On:</span> 22 Jun 2025</div>
-          <div><span className="certificate-label">Issued To:</span> Kundrapu Sagar</div>
+          <div><span className="certificate-label">Certificate ID:</span> 1fe3034d29e012060180754c0dbeg382</div>
+          <div><span className="certificate-label">Issued On:</span> 30 Sep 2025</div>
+          <div><span className="certificate-label">Issued To:</span> Bonu Krishna Chaitanya</div>
           <div><span className="certificate-label">Institute:</span> Siddhartha Academy of Higher Education</div>
-          <div><span className="certificate-label">Internship:</span> EDUSKILLS ACADEMY PYTHON FULL STACK DEVELOPER VIRTUAL INTERNSHIP (APR - JUN 2025)</div>
-          <div><span className="certificate-label">Grade:</span> P</div>
+          <div><span className="certificate-label">Internship:</span> GOOGLE AI-ML VIRTUAL INTERNSHIP (JUL - SEP 2025)</div>
+          <div><span className="certificate-label">Grade:</span> C</div>
         </div>
         <div className="certificate-grade-box">
           <div className="certificate-grade-title">Grade Details</div>
